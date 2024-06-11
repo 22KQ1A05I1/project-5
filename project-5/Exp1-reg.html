@@ -1,0 +1,77 @@
+<html>
+  <head>
+     <title> Register Page </title>
+     <style>
+      body{
+  
+ background: linear-gradient(rgb(150,40,32),yellow);
+        background-color: rgb(175, 241, 20);
+        color:greenyellow;
+        font-style:italic;
+        font-size: large;
+        
+      }
+      h1{
+        color:gold;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+      }
+     </style>
+     <script>
+      function myfun(){
+        alert("s registration stands for student registration")
+        window.document.bgColor="red";
+      }
+     </script>
+  <head>
+    <div align ="center">
+ <body onload="myfun()">
+   <h1>Register Form</h1>
+    <form action="Loginpage1 (2).html">
+      First Name:<input type:"text" name:"First Name" placeholder="FirstName" autofocus required><br>
+      Last Name:<input type:"text" name:"Last Name" value:"lname" placeholder="LastName"><br>
+      E-mail:<input type:"text" name:"E-mail" value:"email" placeholder="email"><br>
+      E-mail:<input list="email" name="mymails"><br>
+      Date of Birth :
+
+      <input type="date" name="bname"><br>
+
+      <datalist id="email">
+           <option value="ram@gamil.com"></option>
+           <option value="ramkumar@yahoo.com"></option>
+           <option value="ramkumar@hotmail.com"></option>
+           <option value="ramkumar123@gmail.com"></option>
+                
+      </datalist><br>
+	    Gender::<input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value=female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+   B.Tech Degree::<select name:" B.Tech Degree">
+              <option>CSE</option>
+              <option>IT</option>
+              <option>AIDS</option>
+              <option>AIML</option>
+              <option>IOT</option>
+              <option>MECH</option>
+               <option>ECE</option>
+               <option>EEE</option>
+    </select>
+    <br>
+select the languages (one or more)<br>
+<input type="checkbox" name="bike">python<br>
+<input type="checkbox" name="car" >java<br>
+<input type="checkbox" name="house">c++<br>
+<input type="checkbox" name="house">c<br>
+address<br>
+<textarea name="mytest" cols="10" rows="2">
+Textarea......
+</textarea><br>
+<br>
+     <input type="submit" value="submit">
+</form>
+</body>
+    </div>
+</html>
+   
+             
+      
